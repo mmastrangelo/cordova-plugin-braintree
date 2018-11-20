@@ -23,6 +23,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "plist": "^2.1.0",
     "xcode": "1.0.0"
   }
 }
