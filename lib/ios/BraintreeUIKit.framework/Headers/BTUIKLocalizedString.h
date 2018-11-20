@@ -6,6 +6,8 @@
 
 #pragma mark Localization helpers
 
++ (void)setCustomTranslations:(NSArray *)locales;
+
 + (NSString *)insertIntoLocalizedString:(NSString *)string replacement:(NSString* )replacement;
 
 + (NSString *)insertIntoLocalizedString:(NSString *)string replacement:(NSString* )replacement token:(NSString *)token;
@@ -68,6 +70,7 @@
 + (NSString *)CARD_NUMBER_PLACEHOLDER;
 + (NSString *)EXPIRY_PLACEHOLDER_FOUR_DIGIT_YEAR;
 + (NSString *)EXPIRY_PLACEHOLDER_TWO_DIGIT_YEAR;
++ (NSString *)CARDHOLDER_NAME_LABEL;
 
 + (NSString *)PAYPAL;
 + (NSString *)CARD_TYPE_AMERICAN_EXPRESS;
